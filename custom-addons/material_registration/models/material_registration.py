@@ -1,13 +1,28 @@
-from odoo.tests.common import TransactionCase
+from odoo import models, fields, api
+from odoo.exceptions import ValidationError
 
-class TestMaterialRegistration(TransactionCase):
+class MaterialRegistration(models.Model):
+    _name = 'material.registration'
+    _description = 'Material Registration'
+    _order = 'name'
 
-    def test_create_material(self):
-        material = self.env['material.registration'].create({
-            'code': 'MAT-001',
-            'name': 'Denim Fabric',
-            'material_type': 'jeans',
-            'buy_price': 150,
-            'supplier_id': self.env['res.partner'].create({'name': 'Test Supplier', 'supplier_rank': 1}).id
-        })
-        self.assertEqual(material.buy_price, 150)
+    code = fields.Char(string='Material Code', required=True)
+    name = fields.Char(string='Material Name', required=True)
+    material_type = fields.Selection(
+        [('fabric', 'Fabric'), ('jeans', 'Jeans'), ('cotton', 'Cotton')],
+        string='Material Type',
+        required=True
+    )
+    buy_price = fields.Float(string='Buy Price', required=True)
+    supplier_id = fields.Many2one(
+        'res.partner', 
+        string='Supplier', 
+        domain="[('is_supplier', '=', True)]", 
+        required=True
+    )
+
+    @api.constrains('buy_price')
+    def _check_buy_price(self):
+        for record in self:
+            if record.buy_price < 100:
+                raise ValidationError("Buy Price must be at least 100.")

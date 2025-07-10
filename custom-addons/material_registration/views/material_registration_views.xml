@@ -1,58 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-
-    <!-- Tree (List) View -->
     <record id="view_material_registration_list" model="ir.ui.view">
         <field name="name">material.registration.list</field>
         <field name="model">material.registration</field>
-        <field name="type">tree</field>
         <field name="arch" type="xml">
-            <tree string="Material List">
+            <list string="Material List">
                 <field name="code"/>
                 <field name="name"/>
                 <field name="material_type"/>
                 <field name="buy_price"/>
-                <field name="supplier_id"/>
-            </tree>
+                <field name="supplier_id" domain="[('is_supplier', '=', True)]"/>
+            </list>
         </field>
     </record>
 
-    <!-- Form View -->
     <record id="view_material_registration_form" model="ir.ui.view">
         <field name="name">material.registration.form</field>
         <field name="model">material.registration</field>
-        <field name="type">form</field>
         <field name="arch" type="xml">
-            <form string="Material Form">
+            <form string="Material Registration">
                 <sheet>
                     <group>
                         <field name="code"/>
                         <field name="name"/>
                         <field name="material_type"/>
                         <field name="buy_price"/>
-                        <field name="supplier_id"/>
+                <field name="supplier_id" domain="[('is_supplier', '=', True)]"/>
                     </group>
                 </sheet>
             </form>
         </field>
     </record>
 
-    <!-- Action -->
     <record id="action_material_registration" model="ir.actions.act_window">
         <field name="name">Materials</field>
         <field name="res_model">material.registration</field>
         <field name="view_mode">tree,form</field>
-        <field name="help" type="html">
-            <p class="o_view_nocontent_smiling_face">Create your first material record</p>
-        </field>
     </record>
 
-    <!-- Menu Item -->
-    <menuitem id="menu_material_registration_root" name="Material Registration"/>
+    <menuitem id="menu_material_registration_root" name="Materials"/>
 
     <menuitem id="menu_material_registration_main"
-              name="Materials"
+              name="Manage Materials"
               parent="menu_material_registration_root"
               action="action_material_registration"/>
-
 </odoo>

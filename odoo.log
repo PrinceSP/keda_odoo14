@@ -1152,3 +1152,155 @@ odoo.tools.convert.ParseError: while parsing /Users/javascript/Desktop/KeDA Tech
         </field>
     </record>
 2025-07-10 11:07:42,678 16696 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:07:42] "POST /web/dataset/call_button/ir.module.module/button_immediate_install HTTP/1.1" 200 - 1716 0.456 0.621
+2025-07-10 11:40:51,427 16696 INFO ? odoo.service.server: Initiating shutdown 
+2025-07-10 11:40:51,437 16696 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-10 11:40:51,683 16696 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 4 connections  
+2025-07-10 11:40:55,193 18258 INFO ? odoo: Odoo version 18.0 
+2025-07-10 11:40:55,193 18258 INFO ? odoo: Using configuration file at /Users/javascript/Desktop/KeDA Tech Test/odoo/odoo.conf 
+2025-07-10 11:40:55,193 18258 INFO ? odoo: addons paths: ['/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/addons', '/Users/javascript/Library/Application Support/Odoo/addons/18.0', '/Users/javascript/Desktop/KeDA Tech Test/odoo/addons', '/Users/javascript/Desktop/KeDA Tech Test/odoo/custom-addons'] 
+2025-07-10 11:40:55,193 18258 INFO ? odoo: database: odoo@localhost:5432 
+2025-07-10 11:40:55,430 18258 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2025-07-10 11:40:55,436 18258 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-07-10 11:40:55,857 18258 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa:8069 
+2025-07-10 11:40:56,477 18258 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-07-10 11:40:56,485 18258 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-07-10 11:40:56,515 18258 INFO ? odoo.modules.loading: loading 12 modules... 
+2025-07-10 11:40:56,842 18258 INFO ? odoo.modules.loading: 12 modules loaded in 0.33s, 0 queries (+0 extra) 
+2025-07-10 11:40:56,879 18258 INFO ? odoo.modules.loading: Modules loaded. 
+2025-07-10 11:40:56,883 18258 INFO ? odoo.modules.registry: Registry loaded in 0.555s 
+2025-07-10 11:40:56,884 18258 INFO odoo_keda odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-07-10 11:40:56,906 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:40:56] "GET /websocket?version=18.0-5 HTTP/1.1" 101 - 20 0.026 0.556
+2025-07-10 11:40:56,962 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:40:56] "POST /bus/has_missed_notifications HTTP/1.1" 200 - 2 0.044 0.005
+2025-07-10 11:40:57,272 18258 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-07-10 11:41:02,910 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:02] "GET /odoo/apps HTTP/1.1" 200 - 73 0.117 0.394
+2025-07-10 11:41:04,467 18258 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'material_registration', defaulting to LGPL-3 
+2025-07-10 11:41:04,468 18258 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'material_registration', defaulting to LGPL-3 
+2025-07-10 11:41:04,468 18258 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'material_registration', defaulting to LGPL-3 
+2025-07-10 11:41:04,470 18258 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'material_registration', defaulting to LGPL-3 
+2025-07-10 11:41:04,554 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:04] "GET /web/webclient/translations/d2c56b07ed5ced215bfc7ac9b473a7e7916c5840?lang=en_US HTTP/1.1" 200 - 1 0.001 1.583
+2025-07-10 11:41:04,586 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:04] "GET /web/assets/debug/web.assets_web.css HTTP/1.1" 200 - 3 0.007 1.612
+2025-07-10 11:41:04,622 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:04] "GET /web/webclient/load_menus/291c97e6e4dd6fb964b660e1ee72c69dcf3e71f84a5db8498fecefd9ea0714d6 HTTP/1.1" 200 - 50 0.045 1.612
+2025-07-10 11:41:04,631 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:04] "GET /web/assets/debug/web.assets_web.js HTTP/1.1" 200 - 3 0.004 1.640
+2025-07-10 11:41:04,663 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:04] "GET /web/assets/debug/web.assets_web_print.css HTTP/1.1" 200 - 3 0.003 0.034
+2025-07-10 11:41:04,981 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:04] "GET /web/webclient/translations/d2c56b07ed5ced215bfc7ac9b473a7e7916c5840?lang=en_US HTTP/1.1" 200 - 1 0.003 0.007
+2025-07-10 11:41:04,985 18258 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:04] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.010
+2025-07-10 11:41:04,992 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:04] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.005 0.015
+2025-07-10 11:41:05,015 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:05] "GET /bus/websocket_worker_bundle?v=18.0-5 HTTP/1.1" 304 - 4 0.003 0.008
+2025-07-10 11:41:05,111 18258 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:05] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.047
+2025-07-10 11:41:05,123 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:05] "GET /websocket?version=18.0-5 HTTP/1.1" 101 - 1 0.002 0.009
+2025-07-10 11:41:05,137 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:05] "POST /web/action/load HTTP/1.1" 200 - 11 0.043 0.032
+2025-07-10 11:41:05,140 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:05] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 23 0.036 0.055
+2025-07-10 11:41:05,207 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:05] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 57 0.021 0.042
+2025-07-10 11:41:05,231 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:05] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.008
+2025-07-10 11:41:05,272 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:05] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 52 0.023 0.026
+2025-07-10 11:41:05,307 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:05] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.007 0.075
+2025-07-10 11:41:05,441 18258 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:05] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.002
+2025-07-10 11:41:06,418 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:06] "POST /web/action/load HTTP/1.1" 200 - 9 0.006 0.010
+2025-07-10 11:41:06,448 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:06] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 12 0.006 0.011
+2025-07-10 11:41:06,462 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:06] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 2 0.002 0.004
+2025-07-10 11:41:07,391 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:07] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 5 0.004 0.012
+2025-07-10 11:41:07,401 18258 INFO odoo_keda odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-07-10 11:41:08,317 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:08] "POST /web/dataset/call_button/base.module.update/update_module HTTP/1.1" 200 - 1617 0.487 0.433
+2025-07-10 11:41:11,652 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:11] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 52 0.023 0.033
+2025-07-10 11:41:11,663 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:11] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.001 0.005
+2025-07-10 11:41:13,184 18258 INFO odoo_keda odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Material Registration'] to user admin #2 via 127.0.0.1 
+2025-07-10 11:41:13,184 18258 INFO odoo_keda odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2025-07-10 11:41:13,185 18258 INFO odoo_keda odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Material Registration'] to user admin #2 via 127.0.0.1 
+2025-07-10 11:41:13,262 18258 INFO odoo_keda odoo.modules.loading: loading 1 modules... 
+2025-07-10 11:41:13,271 18258 INFO odoo_keda odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-07-10 11:41:13,298 18258 INFO odoo_keda odoo.modules.loading: updating modules list 
+2025-07-10 11:41:13,299 18258 INFO odoo_keda odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2025-07-10 11:41:14,040 18258 INFO odoo_keda odoo.modules.loading: loading 12 modules... 
+2025-07-10 11:41:14,052 18258 INFO odoo_keda odoo.modules.loading: 12 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-07-10 11:41:14,053 18258 INFO odoo_keda odoo.modules.loading: loading 13 modules... 
+2025-07-10 11:41:14,053 18258 INFO odoo_keda odoo.modules.loading: Loading module material_registration (2/13) 
+2025-07-10 11:41:14,097 18258 INFO odoo_keda odoo.modules.registry: module material_registration: creating or updating database tables 
+2025-07-10 11:41:14,195 18258 INFO odoo_keda odoo.modules.loading: loading material_registration/security/security.xml 
+2025-07-10 11:41:14,242 18258 INFO odoo_keda odoo.modules.loading: loading material_registration/security/ir.model.access.csv 
+2025-07-10 11:41:14,255 18258 WARNING odoo_keda odoo.addons.base.models.ir_model: Rule access_material_registration has no group, this is a deprecated feature. Every access-granting rule should specify a group. 
+2025-07-10 11:41:14,291 18258 INFO odoo_keda odoo.modules.loading: loading material_registration/views/material_registration_views.xml 
+2025-07-10 11:41:14,362 18258 WARNING odoo_keda odoo.modules.loading: Transient module states were reset 
+2025-07-10 11:41:14,364 18258 ERROR odoo_keda odoo.modules.registry: Failed to load registry 
+2025-07-10 11:41:14,370 18258 INFO odoo_keda odoo.modules.loading: loading 1 modules... 
+2025-07-10 11:41:14,380 18258 INFO odoo_keda odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-07-10 11:41:14,382 18258 INFO odoo_keda odoo.modules.loading: loading 12 modules... 
+2025-07-10 11:41:14,391 18258 INFO odoo_keda odoo.modules.loading: 12 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-07-10 11:41:14,422 18258 INFO odoo_keda odoo.modules.loading: Modules loaded. 
+2025-07-10 11:41:14,423 18258 INFO odoo_keda odoo.modules.registry: Registry loaded in 0.059s 
+2025-07-10 11:41:14,442 18258 ERROR odoo_keda odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/http.py", line 2533, in __call__
+    response = request._serve_db()
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/http.py", line 2060, in _serve_db
+    return self._transactioning(
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/http.py", line 2123, in _transactioning
+    return service_model.retrying(func, env=self.env)
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/service/model.py", line 156, in retrying
+    result = func()
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/http.py", line 2090, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/http.py", line 2338, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/addons/base/models/ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/http.py", line 754, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/addons/web/controllers/dataset.py", line 42, in call_button
+    action = call_kw(request.env[model], method, args, kwargs)
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/api.py", line 533, in call_kw
+    result = getattr(recs, name)(*args, **kwargs)
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo18-venv/lib/python3.10/site-packages/decorator.py", line 235, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/addons/base/models/ir_module.py", line 75, in check_and_log
+    return method(self, *args, **kwargs)
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/addons/base/models/ir_module.py", line 480, in button_immediate_install
+    return self._button_immediate_function(self.env.registry[self._name].button_install)
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/addons/base/models/ir_module.py", line 604, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo18-venv/lib/python3.10/site-packages/decorator.py", line 235, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/tools/func.py", line 97, in locked
+    return func(inst, *args, **kwargs)
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/modules/registry.py", line 129, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/modules/loading.py", line 484, in load_modules
+    processed_modules += load_marked_modules(env, graph,
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/modules/loading.py", line 365, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/modules/loading.py", line 228, in load_module_graph
+    load_data(env, idref, mode, kind='data', package=package)
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/modules/loading.py", line 72, in load_data
+    tools.convert_file(env, package.name, filename, idref, mode, noupdate, kind)
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/tools/convert.py", line 615, in convert_file
+    convert_xml_import(env, module, fp, idref, mode, noupdate)
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/tools/convert.py", line 686, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/tools/convert.py", line 601, in parse
+    self._tag_root(de)
+  File "/Users/javascript/Desktop/KeDA Tech Test/odoo/odoo/tools/convert.py", line 555, in _tag_root
+    raise ParseError(msg) from None  # Restart with "--log-handler odoo.tools.convert:DEBUG" for complete traceback
+odoo.tools.convert.ParseError: while parsing /Users/javascript/Desktop/KeDA Tech Test/odoo/custom-addons/material_registration/views/material_registration_views.xml:16
+Error while validating view near:
+
+                        <field name="material_type"/>
+                        <field name="buy_price"/>
+                        <field name="supplier_id"/>
+                    </group>
+                </sheet>
+
+Unknown field "res.partner.is_supplier" in domain of python field 'supplier_id' ([('is_supplier', '=', True)]))
+
+View error context:
+{'file': '/Users/javascript/Desktop/KeDA Tech '
+         'Test/odoo/custom-addons/material_registration/views/material_registration_views.xml',
+ 'line': 8,
+ 'name': 'material.registration.form',
+ 'view': ir.ui.view(253,),
+ 'view.model': 'material.registration',
+ 'view.parent': ir.ui.view(),
+ 'xmlid': 'view_material_registration_form'}
+
+2025-07-10 11:41:14,443 18258 INFO odoo_keda werkzeug: 127.0.0.1 - - [10/Jul/2025 11:41:14] "POST /web/dataset/call_button/ir.module.module/button_immediate_install HTTP/1.1" 200 - 1734 0.601 0.666
+2025-07-10 11:44:13,956 18258 INFO ? odoo.service.server: Initiating shutdown 
+2025-07-10 11:44:13,962 18258 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-07-10 11:44:14,272 18258 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 7 connections  
