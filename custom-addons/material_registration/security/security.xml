@@ -1,0 +1,8 @@
+<odoo>
+    <data noupdate="1">
+        <record id="model_material_registration" model="ir.model">
+            <field name="name">material.registration</field>
+            <field name="model">material.registration</field>
+        </record>
+    </data>
+</odoo>
