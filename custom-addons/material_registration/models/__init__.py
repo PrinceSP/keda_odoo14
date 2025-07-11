@@ -1,1 +1,1 @@
-from . import material_registration
+from . import material_registration, res_partner
