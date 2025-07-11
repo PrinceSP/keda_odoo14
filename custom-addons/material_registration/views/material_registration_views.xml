@@ -8,7 +8,7 @@
                 <field name="name"/>
                 <field name="material_type"/>
                 <field name="buy_price"/>
-                <field name="supplier_id" domain="[('is_supplier', '=', True)]"/>
+                <field name="supplier_id" domain="[('is_material_supplier', '=', True)]"/>
             </list>
         </field>
     </record>
@@ -24,7 +24,7 @@
                         <field name="name"/>
                         <field name="material_type"/>
                         <field name="buy_price"/>
-                <field name="supplier_id" domain="[('is_supplier', '=', True)]"/>
+                        <field name="supplier_id" domain="[('is_material_supplier', '=', True)]"/>
                     </group>
                 </sheet>
             </form>
